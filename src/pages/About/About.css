@@ -1,0 +1,45 @@
+.about-content {
+  gap: 4rem;
+  text-align: justify;
+}
+.about-title {
+  margin: 1rem 0;
+}
+.about-img img {
+  max-width: 560px;
+}
+
+.about-text {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #b1afff;
+  color: black;
+}
+
+.about-text p {
+  margin: 1.8rem;
+  opacity: 0.8;
+}
+
+.Contacts {
+  margin-top: 3rem;
+  margin-left: 16rem;
+}
+.Contacts h2{
+  margin-bottom: 10px;
+}
+.Contacts div{
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .about-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-title {
+    margin-top: 0;
+  }
+  .about-img img {
+    margin-left: 0;
+  }
+}
